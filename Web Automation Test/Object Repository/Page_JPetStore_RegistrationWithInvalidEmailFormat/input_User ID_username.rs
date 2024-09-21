@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='stripes--1354536454']</value>
+         <value>//div[@id='Catalog']/form/table/tbody/tr/td[2]/input</value>
       </entry>
       <entry>
          <key>CSS</key>
