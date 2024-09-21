@@ -1,0 +1,104 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_JPetStore Demo/input_User ID_username",
+      "brokenLocator": "//input[@id\u003d\u0027stripes-1463991674\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027Catalog\u0027]/form/table/tbody/tr/td[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/JPetStore_RegisterWithExitedAccount/Page_JPetStore Demo/input_User ID_username",
+      "brokenLocator": "//input[@id\u003d\u0027stripes--413007260\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027Catalog\u0027]/form/table/tbody/tr/td[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/JPetStore_RegisterWithExitedAccount/Page_JPetStore Demo/input_User ID_username_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_JPetStore_RegisWithExistingUserID/input_User ID_username",
+      "brokenLocator": "//input[@id\u003d\u0027stripes--1082587525\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027Catalog\u0027]/form/table/tbody/tr/td[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_JPetStore_RegisWithExistingUserID/input_User ID_username_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_JPetStore_LoginWithIncorrectPassword/input_Need a user name and password_username",
+      "brokenLocator": "//input[@id\u003d\u0027stripes--505318560\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027Catalog\u0027]/form/p[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_JPetStore_LoginWithIncorrectPassword/input_Need a user name and password_username_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_JPetStore_RegisterWithValidData/input_User ID_username",
+      "brokenLocator": "//input[@id\u003d\u0027stripes-1917652238\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027Catalog\u0027]/form/table/tbody/tr/td[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_JPetStore_RegisterWithValidData/input_User ID_username_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_JPetStore_LoginWithUnRegisterdUserID/input_Need a user name and password_username",
+      "brokenLocator": "//input[@id\u003d\u0027stripes--2054480734\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027Catalog\u0027]/form/p[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_JPetStore_LoginWithUnRegisterdUserID/input_Need a user name and password_username_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_JPetStore_SuccessfulLoginWithValidCredentials/input_Need a user name and password_username",
+      "brokenLocator": "//input[@id\u003d\u0027stripes-1756144997\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027Catalog\u0027]/form/p[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_JPetStore_SuccessfulLoginWithValidCredentials/input_Need a user name and password_username_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_User ID_username",
+      "brokenLocator": "//input[@id\u003d\u0027stripes--1354536454\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027Catalog\u0027]/form/table/tbody/tr/td[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_User ID_username_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_User ID_username",
+      "brokenLocator": "//input[@id\u003d\u0027stripes--1280050452\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027Catalog\u0027]/form/table/tbody/tr/td[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_User ID_username_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_User ID_username",
+      "brokenLocator": "//input[@id\u003d\u0027stripes-1996427642\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027Catalog\u0027]/form/table/tbody/tr/td[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_User ID_username_idRelative.png"
+    }
+  ]
+}

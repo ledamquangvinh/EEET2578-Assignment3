@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="503.224" tests="6" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="6" failures="0" errors="0" time="503.224" skipped="0" timestamp="15-09-2024T18:43:46" hostname="ledamquangvinh - 192.168.2.9" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/ledamquangvinh/Katalon Studio/My First Web UI Project/Reports/20240915_184340/New Test Suite/20240915_184341"/>
+         <property name="logFiles" value="/Users/ledamquangvinh/Katalon Studio/My First Web UI Project/Reports/20240915_184340/New Test Suite/20240915_184341/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ledamquangvinh - 192.168.2.9"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="192.168.2.9"/>
+         <property name="sessionId" value="6804d4624478837a24917f669a34624d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/A3JBTMT-6 Login with incorrect password" time="77.822" classname="Test Cases/A3JBTMT-6 Login with incorrect password" status="PASSED">
+         <system-out><![CDATA[15-09-2024T18:43:46 - [TEST_CASE][PASSED] - Test Cases/A3JBTMT-6 Login with incorrect password: Test Cases/A3JBTMT-6 Login with incorrect password
+
+15-09-2024T18:43:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-09-2024T18:43:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-09-2024T18:43:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-09-2024T18:43:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-09-2024T18:43:47 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+15-09-2024T18:43:48 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+15-09-2024T18:43:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore_LoginWithIncorrectPassword/a_Enter the Store")): Object: 'Object Repository/Page_JPetStore_LoginWithIncorrectPassword/a_Enter the Store' is clicked on
+
+15-09-2024T18:43:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore_LoginWithIncorrectPassword/a_Enter the Store' is clicked on
+
+15-09-2024T18:43:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore_LoginWithIncorrectPassword/a_Sign In")): Object: 'Object Repository/Page_JPetStore_LoginWithIncorrectPassword/a_Sign In' is clicked on
+
+15-09-2024T18:43:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore_LoginWithIncorrectPassword/a_Sign In' is clicked on
+
+15-09-2024T18:43:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_LoginWithIncorrectPassword/input_Need a user name and password_username"), "abc004"): Text 'abc004' is set on object 'Object Repository/Page_JPetStore_LoginWithIncorrectPassword/input_Need a user name and password_username'
+
+15-09-2024T18:44:21 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='stripes-490571145']'. Please recheck the objects properties to make sure the desired element is located. 
+
+15-09-2024T18:44:21 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_JPetStore_LoginWithIncorrectPassword/input_Need a user name and password_username'. Try using Self-healing.
+
+15-09-2024T18:44:23 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_JPetStore_LoginWithIncorrectPassword/input_Need a user name and password_username' was broken. Propose an alternative one: '//div[@id='Catalog']/form/p[2]/input'.
+
+15-09-2024T18:44:55 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='stripes-490571145']'. Please recheck the objects properties to make sure the desired element is located. 
+
+15-09-2024T18:44:55 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_JPetStore_LoginWithIncorrectPassword/input_Need a user name and password_username'. Try using Self-healing.
+
+15-09-2024T18:44:57 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_JPetStore_LoginWithIncorrectPassword/input_Need a user name and password_username' was broken. Propose an alternative one: '//div[@id='Catalog']/form/p[2]/input'.
+
+15-09-2024T18:44:57 - [MESSAGE][PASSED] - Text 'abc004' is set on object 'Object Repository/Page_JPetStore_LoginWithIncorrectPassword/input_Need a user name and password_username'
+
+15-09-2024T18:44:57 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_JPetStore_LoginWithIncorrectPassword/input_Need a user name and password_password"), "+kIzYNdhew8="): Text ****** has been set on object 'Object Repository/Page_JPetStore_LoginWithIncorrectPassword/input_Need a user name and password_password'
+
+15-09-2024T18:44:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_JPetStore_LoginWithIncorrectPassword/input_Need a user name and password_password'
+
+15-09-2024T18:44:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore_LoginWithIncorrectPassword/input_Need a user name and password_signon")): Object: 'Object Repository/Page_JPetStore_LoginWithIncorrectPassword/input_Need a user name and password_signon' is clicked on
+
+15-09-2024T18:45:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore_LoginWithIncorrectPassword/input_Need a user name and password_signon' is clicked on
+
+15-09-2024T18:45:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore_LoginWithIncorrectPassword/li_Invalid username or password.  Signon failed")): Object: 'Object Repository/Page_JPetStore_LoginWithIncorrectPassword/li_Invalid username or password.  Signon failed' is clicked on
+
+15-09-2024T18:45:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore_LoginWithIncorrectPassword/li_Invalid username or password.  Signon failed' is clicked on
+
+15-09-2024T18:45:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-09-2024T18:45:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/A3JBTMT-4 Login with unregistered user ID" time="68.0" classname="Test Cases/A3JBTMT-4 Login with unregistered user ID" status="PASSED">
+         <system-out><![CDATA[15-09-2024T18:45:03 - [TEST_CASE][PASSED] - Test Cases/A3JBTMT-4 Login with unregistered user ID: Test Cases/A3JBTMT-4 Login with unregistered user ID
+
+15-09-2024T18:45:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-09-2024T18:45:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-09-2024T18:45:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-09-2024T18:45:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-09-2024T18:45:04 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+15-09-2024T18:45:05 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+15-09-2024T18:45:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore_LoginWithUnRegisterdUserID/p_Enter the Store")): Object: 'Object Repository/Page_JPetStore_LoginWithUnRegisterdUserID/p_Enter the Store' is clicked on
+
+15-09-2024T18:45:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore_LoginWithUnRegisterdUserID/p_Enter the Store' is clicked on
+
+15-09-2024T18:45:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore_LoginWithUnRegisterdUserID/a_Enter the Store")): Object: 'Object Repository/Page_JPetStore_LoginWithUnRegisterdUserID/a_Enter the Store' is clicked on
+
+15-09-2024T18:45:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore_LoginWithUnRegisterdUserID/a_Enter the Store' is clicked on
+
+15-09-2024T18:45:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore_LoginWithUnRegisterdUserID/a_Sign In")): Object: 'Object Repository/Page_JPetStore_LoginWithUnRegisterdUserID/a_Sign In' is clicked on
+
+15-09-2024T18:45:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore_LoginWithUnRegisterdUserID/a_Sign In' is clicked on
+
+15-09-2024T18:45:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_LoginWithUnRegisterdUserID/input_Need a user name and password_username"), "abc005"): Text 'abc005' is set on object 'Object Repository/Page_JPetStore_LoginWithUnRegisterdUserID/input_Need a user name and password_username'
+
+15-09-2024T18:45:38 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='stripes--2054480734']'. Please recheck the objects properties to make sure the desired element is located. 
+
+15-09-2024T18:45:38 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_JPetStore_LoginWithUnRegisterdUserID/input_Need a user name and password_username'. Try using Self-healing.
+
+15-09-2024T18:45:38 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_JPetStore_LoginWithUnRegisterdUserID/input_Need a user name and password_username' was broken. Propose an alternative one: '//div[@id='Catalog']/form/p[2]/input'.
+
+15-09-2024T18:46:09 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='stripes--2054480734']'. Please recheck the objects properties to make sure the desired element is located. 
+
+15-09-2024T18:46:09 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_JPetStore_LoginWithUnRegisterdUserID/input_Need a user name and password_username'. Try using Self-healing.
+
+15-09-2024T18:46:10 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_JPetStore_LoginWithUnRegisterdUserID/input_Need a user name and password_username' was broken. Propose an alternative one: '//div[@id='Catalog']/form/p[2]/input'.
+
+15-09-2024T18:46:10 - [MESSAGE][PASSED] - Text 'abc005' is set on object 'Object Repository/Page_JPetStore_LoginWithUnRegisterdUserID/input_Need a user name and password_username'
+
+15-09-2024T18:46:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_JPetStore_LoginWithUnRegisterdUserID/input_Need a user name and password_password"), "HwXnxaZD17M="): Text ****** has been set on object 'Object Repository/Page_JPetStore_LoginWithUnRegisterdUserID/input_Need a user name and password_password'
+
+15-09-2024T18:46:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_JPetStore_LoginWithUnRegisterdUserID/input_Need a user name and password_password'
+
+15-09-2024T18:46:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore_LoginWithUnRegisterdUserID/input_Need a user name and password_signon")): Object: 'Object Repository/Page_JPetStore_LoginWithUnRegisterdUserID/input_Need a user name and password_signon' is clicked on
+
+15-09-2024T18:46:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore_LoginWithUnRegisterdUserID/input_Need a user name and password_signon' is clicked on
+
+15-09-2024T18:46:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore_LoginWithUnRegisterdUserID/li_Invalid username or password.  Signon failed")): Object: 'Object Repository/Page_JPetStore_LoginWithUnRegisterdUserID/li_Invalid username or password.  Signon failed' is clicked on
+
+15-09-2024T18:46:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore_LoginWithUnRegisterdUserID/li_Invalid username or password.  Signon failed' is clicked on
+
+15-09-2024T18:46:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-09-2024T18:46:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/A3JBTMT-3 Successful login with valid credentials" time="82.226" classname="Test Cases/A3JBTMT-3 Successful login with valid credentials" status="PASSED">
+         <system-out><![CDATA[15-09-2024T18:46:11 - [TEST_CASE][PASSED] - Test Cases/A3JBTMT-3 Successful login with valid credentials: Test Cases/A3JBTMT-3 Successful login with valid credentials
+
+15-09-2024T18:46:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-09-2024T18:46:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-09-2024T18:46:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-09-2024T18:46:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-09-2024T18:46:12 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+15-09-2024T18:46:13 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+15-09-2024T18:46:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore_SuccessfulLoginWithValidCredentials/p_Enter the Store")): Object: 'Object Repository/Page_JPetStore_SuccessfulLoginWithValidCredentials/p_Enter the Store' is clicked on
+
+15-09-2024T18:46:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore_SuccessfulLoginWithValidCredentials/p_Enter the Store' is clicked on
+
+15-09-2024T18:46:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore_SuccessfulLoginWithValidCredentials/a_Enter the Store")): Object: 'Object Repository/Page_JPetStore_SuccessfulLoginWithValidCredentials/a_Enter the Store' is clicked on
+
+15-09-2024T18:46:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore_SuccessfulLoginWithValidCredentials/a_Enter the Store' is clicked on
+
+15-09-2024T18:46:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore_SuccessfulLoginWithValidCredentials/a_Sign In")): Object: 'Object Repository/Page_JPetStore_SuccessfulLoginWithValidCredentials/a_Sign In' is clicked on
+
+15-09-2024T18:46:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore_SuccessfulLoginWithValidCredentials/a_Sign In' is clicked on
+
+15-09-2024T18:46:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_SuccessfulLoginWithValidCredentials/input_Need a user name and password_username"), "abc004"): Text 'abc004' is set on object 'Object Repository/Page_JPetStore_SuccessfulLoginWithValidCredentials/input_Need a user name and password_username'
+
+15-09-2024T18:46:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='stripes-1756144997']'. Please recheck the objects properties to make sure the desired element is located. 
+
+15-09-2024T18:46:48 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_JPetStore_SuccessfulLoginWithValidCredentials/input_Need a user name and password_username'. Try using Self-healing.
+
+15-09-2024T18:46:50 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='stripes-1756144997']'.
+
+15-09-2024T18:46:52 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//div[@id='Catalog']/form/p[2]/input'.
+
+15-09-2024T18:46:53 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: /Users/ledamquangvinh/Katalon Studio/My First Web UI Project/Reports/Self-healing/Object Repository/Page_JPetStore_SuccessfulLoginWithValidCredentials/input_Need a user name and password_username_idRelative.png
+
+15-09-2024T18:46:53 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_JPetStore_SuccessfulLoginWithValidCredentials/input_Need a user name and password_username' was broken. Propose an alternative one: '//div[@id='Catalog']/form/p[2]/input'.
+
+15-09-2024T18:47:24 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='stripes-1756144997']'. Please recheck the objects properties to make sure the desired element is located. 
+
+15-09-2024T18:47:24 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_JPetStore_SuccessfulLoginWithValidCredentials/input_Need a user name and password_username'. Try using Self-healing.
+
+15-09-2024T18:47:26 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_JPetStore_SuccessfulLoginWithValidCredentials/input_Need a user name and password_username' was broken. Propose an alternative one: '//div[@id='Catalog']/form/p[2]/input'.
+
+15-09-2024T18:47:26 - [MESSAGE][PASSED] - Text 'abc004' is set on object 'Object Repository/Page_JPetStore_SuccessfulLoginWithValidCredentials/input_Need a user name and password_username'
+
+15-09-2024T18:47:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_JPetStore_SuccessfulLoginWithValidCredentials/input_Need a user name and password_password"), "HwXnxaZD17M="): Text ****** has been set on object 'Object Repository/Page_JPetStore_SuccessfulLoginWithValidCredentials/input_Need a user name and password_password'
+
+15-09-2024T18:47:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_JPetStore_SuccessfulLoginWithValidCredentials/input_Need a user name and password_password'
+
+15-09-2024T18:47:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore_SuccessfulLoginWithValidCredentials/input_Need a user name and password_signon")): Object: 'Object Repository/Page_JPetStore_SuccessfulLoginWithValidCredentials/input_Need a user name and password_signon' is clicked on
+
+15-09-2024T18:47:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore_SuccessfulLoginWithValidCredentials/input_Need a user name and password_signon' is clicked on
+
+15-09-2024T18:47:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore_SuccessfulLoginWithValidCredentials/a_Sign Out")): Object: 'Object Repository/Page_JPetStore_SuccessfulLoginWithValidCredentials/a_Sign Out' is clicked on
+
+15-09-2024T18:47:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore_SuccessfulLoginWithValidCredentials/a_Sign Out' is clicked on
+
+15-09-2024T18:47:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-09-2024T18:47:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/A3JBTMT-5 Registration with invalid email format" time="126.816" classname="Test Cases/A3JBTMT-5 Registration with invalid email format" status="PASSED">
+         <system-out><![CDATA[15-09-2024T18:47:34 - [TEST_CASE][PASSED] - Test Cases/A3JBTMT-5 Registration with invalid email format: Test Cases/A3JBTMT-5 Registration with invalid email format
+
+15-09-2024T18:47:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-09-2024T18:47:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-09-2024T18:47:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-09-2024T18:47:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-09-2024T18:47:34 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+15-09-2024T18:47:35 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+15-09-2024T18:47:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/a_Enter the Store")): Object: 'Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/a_Enter the Store' is clicked on
+
+15-09-2024T18:47:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/a_Enter the Store' is clicked on
+
+15-09-2024T18:47:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/a_Sign In")): Object: 'Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/a_Sign In' is clicked on
+
+15-09-2024T18:47:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/a_Sign In' is clicked on
+
+15-09-2024T18:47:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/a_Register Now")): Object: 'Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/a_Register Now' is clicked on
+
+15-09-2024T18:47:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/a_Register Now' is clicked on
+
+15-09-2024T18:47:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_User ID_username"), "abc000"): Text 'abc000' is set on object 'Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_User ID_username'
+
+15-09-2024T18:48:10 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='stripes--1354536454']'. Please recheck the objects properties to make sure the desired element is located. 
+
+15-09-2024T18:48:10 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_User ID_username'. Try using Self-healing.
+
+15-09-2024T18:48:12 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='stripes--1354536454']'.
+
+15-09-2024T18:48:14 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//div[@id='Catalog']/form/table/tbody/tr/td[2]/input'.
+
+15-09-2024T18:48:14 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: /Users/ledamquangvinh/Katalon Studio/My First Web UI Project/Reports/Self-healing/Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_User ID_username_idRelative.png
+
+15-09-2024T18:48:14 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_User ID_username' was broken. Propose an alternative one: '//div[@id='Catalog']/form/table/tbody/tr/td[2]/input'.
+
+15-09-2024T18:48:47 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='stripes--1354536454']'. Please recheck the objects properties to make sure the desired element is located. 
+
+15-09-2024T18:48:47 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_User ID_username'. Try using Self-healing.
+
+15-09-2024T18:48:49 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_User ID_username' was broken. Propose an alternative one: '//div[@id='Catalog']/form/table/tbody/tr/td[2]/input'.
+
+15-09-2024T18:48:49 - [MESSAGE][PASSED] - Text 'abc000' is set on object 'Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_User ID_username'
+
+15-09-2024T18:48:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_New password_password"), "abc123"): Text 'abc123' is set on object 'Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_New password_password'
+
+15-09-2024T18:48:53 - [MESSAGE][PASSED] - Text 'abc123' is set on object 'Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_New password_password'
+
+15-09-2024T18:48:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_Repeat password_repeatedPassword"), "abc123"): Text 'abc123' is set on object 'Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_Repeat password_repeatedPassword'
+
+15-09-2024T18:48:57 - [MESSAGE][PASSED] - Text 'abc123' is set on object 'Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_Repeat password_repeatedPassword'
+
+15-09-2024T18:48:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_First name_account.firstName"), "abc"): Text 'abc' is set on object 'Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_First name_account.firstName'
+
+15-09-2024T18:49:01 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_First name_account.firstName'
+
+15-09-2024T18:49:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_Last name_account.lastName"), "abc"): Text 'abc' is set on object 'Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_Last name_account.lastName'
+
+15-09-2024T18:49:05 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_Last name_account.lastName'
+
+15-09-2024T18:49:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_Email_account.email"), "abc"): Text 'abc' is set on object 'Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_Email_account.email'
+
+15-09-2024T18:49:09 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_Email_account.email'
+
+15-09-2024T18:49:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_Phone_account.phone"), "abc"): Text 'abc' is set on object 'Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_Phone_account.phone'
+
+15-09-2024T18:49:13 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_Phone_account.phone'
+
+15-09-2024T18:49:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_Address 1_account.address1"), "abc"): Text 'abc' is set on object 'Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_Address 1_account.address1'
+
+15-09-2024T18:49:17 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_Address 1_account.address1'
+
+15-09-2024T18:49:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_Address 2_account.address2"), "abc"): Text 'abc' is set on object 'Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_Address 2_account.address2'
+
+15-09-2024T18:49:21 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_Address 2_account.address2'
+
+15-09-2024T18:49:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_City_account.city"), "abc"): Text 'abc' is set on object 'Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_City_account.city'
+
+15-09-2024T18:49:25 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_City_account.city'
+
+15-09-2024T18:49:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_State_account.state"), "abc"): Text 'abc' is set on object 'Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_State_account.state'
+
+15-09-2024T18:49:29 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_State_account.state'
+
+15-09-2024T18:49:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_Zip_account.zip"), "100000"): Text '100000' is set on object 'Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_Zip_account.zip'
+
+15-09-2024T18:49:33 - [MESSAGE][PASSED] - Text '100000' is set on object 'Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_Zip_account.zip'
+
+15-09-2024T18:49:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_Country_account.country"), "abc"): Text 'abc' is set on object 'Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_Country_account.country'
+
+15-09-2024T18:49:37 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_Country_account.country'
+
+15-09-2024T18:49:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_Enable MyBanner_newAccount")): Object: 'Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_Enable MyBanner_newAccount' is clicked on
+
+15-09-2024T18:49:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore_RegistrationWithInvalidEmailFormat/input_Enable MyBanner_newAccount' is clicked on
+
+15-09-2024T18:49:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-09-2024T18:49:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/A3JBTMT-2 Registration with an existing user ID" time="74.384" classname="Test Cases/A3JBTMT-2 Registration with an existing user ID" status="PASSED">
+         <system-out><![CDATA[15-09-2024T18:49:40 - [TEST_CASE][PASSED] - Test Cases/A3JBTMT-2 Registration with an existing user ID: Test Cases/A3JBTMT-2 Registration with an existing user ID
+
+15-09-2024T18:49:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-09-2024T18:49:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-09-2024T18:49:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-09-2024T18:49:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-09-2024T18:49:41 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+15-09-2024T18:49:42 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+15-09-2024T18:49:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore_RegisterWithExistingUserID/a_Enter the Store")): Object: 'Object Repository/Page_JPetStore_RegisterWithExistingUserID/a_Enter the Store' is clicked on
+
+15-09-2024T18:49:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore_RegisterWithExistingUserID/a_Enter the Store' is clicked on
+
+15-09-2024T18:49:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore_RegisterWithExistingUserID/a_Sign In")): Object: 'Object Repository/Page_JPetStore_RegisterWithExistingUserID/a_Sign In' is clicked on
+
+15-09-2024T18:49:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore_RegisterWithExistingUserID/a_Sign In' is clicked on
+
+15-09-2024T18:49:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore_RegisterWithExistingUserID/a_Register Now")): Object: 'Object Repository/Page_JPetStore_RegisterWithExistingUserID/a_Register Now' is clicked on
+
+15-09-2024T18:49:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore_RegisterWithExistingUserID/a_Register Now' is clicked on
+
+15-09-2024T18:49:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_User ID_username"), "abc004"): Text 'abc004' is set on object 'Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_User ID_username'
+
+15-09-2024T18:50:15 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='stripes--1280050452']'. Please recheck the objects properties to make sure the desired element is located. 
+
+15-09-2024T18:50:16 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_User ID_username'. Try using Self-healing.
+
+15-09-2024T18:50:16 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='stripes--1280050452']'.
+
+15-09-2024T18:50:16 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//div[@id='Catalog']/form/table/tbody/tr/td[2]/input'.
+
+15-09-2024T18:50:16 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: /Users/ledamquangvinh/Katalon Studio/My First Web UI Project/Reports/Self-healing/Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_User ID_username_idRelative.png
+
+15-09-2024T18:50:16 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_User ID_username' was broken. Propose an alternative one: '//div[@id='Catalog']/form/table/tbody/tr/td[2]/input'.
+
+15-09-2024T18:50:47 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='stripes--1280050452']'. Please recheck the objects properties to make sure the desired element is located. 
+
+15-09-2024T18:50:47 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_User ID_username'. Try using Self-healing.
+
+15-09-2024T18:50:47 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_User ID_username' was broken. Propose an alternative one: '//div[@id='Catalog']/form/table/tbody/tr/td[2]/input'.
+
+15-09-2024T18:50:48 - [MESSAGE][PASSED] - Text 'abc004' is set on object 'Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_User ID_username'
+
+15-09-2024T18:50:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_New password_password"), "abc123"): Text 'abc123' is set on object 'Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_New password_password'
+
+15-09-2024T18:50:48 - [MESSAGE][PASSED] - Text 'abc123' is set on object 'Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_New password_password'
+
+15-09-2024T18:50:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_Repeat password_repeatedPassword"), "abc123"): Text 'abc123' is set on object 'Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_Repeat password_repeatedPassword'
+
+15-09-2024T18:50:49 - [MESSAGE][PASSED] - Text 'abc123' is set on object 'Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_Repeat password_repeatedPassword'
+
+15-09-2024T18:50:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_First name_account.firstName"), "abc"): Text 'abc' is set on object 'Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_First name_account.firstName'
+
+15-09-2024T18:50:49 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_First name_account.firstName'
+
+15-09-2024T18:50:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_Last name_account.lastName"), "abc"): Text 'abc' is set on object 'Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_Last name_account.lastName'
+
+15-09-2024T18:50:50 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_Last name_account.lastName'
+
+15-09-2024T18:50:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_Email_account.email"), "abc@gmail.com"): Text 'abc@gmail.com' is set on object 'Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_Email_account.email'
+
+15-09-2024T18:50:50 - [MESSAGE][PASSED] - Text 'abc@gmail.com' is set on object 'Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_Email_account.email'
+
+15-09-2024T18:50:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_Phone_account.phone"), "0123456789"): Text '0123456789' is set on object 'Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_Phone_account.phone'
+
+15-09-2024T18:50:51 - [MESSAGE][PASSED] - Text '0123456789' is set on object 'Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_Phone_account.phone'
+
+15-09-2024T18:50:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_Address 1_account.address1"), "abc"): Text 'abc' is set on object 'Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_Address 1_account.address1'
+
+15-09-2024T18:50:51 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_Address 1_account.address1'
+
+15-09-2024T18:50:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_Address 2_account.address2"), "abc"): Text 'abc' is set on object 'Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_Address 2_account.address2'
+
+15-09-2024T18:50:52 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_Address 2_account.address2'
+
+15-09-2024T18:50:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_City_account.city"), "abc"): Text 'abc' is set on object 'Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_City_account.city'
+
+15-09-2024T18:50:52 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_City_account.city'
+
+15-09-2024T18:50:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_State_account.state"), "abc"): Text 'abc' is set on object 'Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_State_account.state'
+
+15-09-2024T18:50:53 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_State_account.state'
+
+15-09-2024T18:50:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_Zip_account.zip"), "100000"): Text '100000' is set on object 'Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_Zip_account.zip'
+
+15-09-2024T18:50:53 - [MESSAGE][PASSED] - Text '100000' is set on object 'Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_Zip_account.zip'
+
+15-09-2024T18:50:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_Country_account.country"), "abc"): Text 'abc' is set on object 'Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_Country_account.country'
+
+15-09-2024T18:50:54 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_Country_account.country'
+
+15-09-2024T18:50:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_Enable MyBanner_newAccount")): Object: 'Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_Enable MyBanner_newAccount' is clicked on
+
+15-09-2024T18:50:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore_RegisterWithExistingUserID/input_Enable MyBanner_newAccount' is clicked on
+
+15-09-2024T18:50:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_HTTP Status 500  Internal Server Error/body_HTTP Status 500  Internal Server Error_b41525")): Object: 'Object Repository/Page_HTTP Status 500  Internal Server Error/body_HTTP Status 500  Internal Server Error_b41525' is clicked on
+
+15-09-2024T18:50:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_HTTP Status 500  Internal Server Error/body_HTTP Status 500  Internal Server Error_b41525' is clicked on
+
+15-09-2024T18:50:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-09-2024T18:50:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/A3JBTMT-1 Successful registration with valid data" time="73.921" classname="Test Cases/A3JBTMT-1 Successful registration with valid data" status="PASSED">
+         <system-out><![CDATA[15-09-2024T18:50:55 - [TEST_CASE][PASSED] - Test Cases/A3JBTMT-1 Successful registration with valid data: Test Cases/A3JBTMT-1 Successful registration with valid data
+
+15-09-2024T18:50:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-09-2024T18:50:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-09-2024T18:50:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-09-2024T18:50:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-09-2024T18:50:56 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+15-09-2024T18:50:56 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+15-09-2024T18:50:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/a_Enter the Store")): Object: 'Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/a_Enter the Store' is clicked on
+
+15-09-2024T18:50:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/a_Enter the Store' is clicked on
+
+15-09-2024T18:50:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/a_Sign In")): Object: 'Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/a_Sign In' is clicked on
+
+15-09-2024T18:50:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/a_Sign In' is clicked on
+
+15-09-2024T18:50:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/a_Register Now")): Object: 'Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/a_Register Now' is clicked on
+
+15-09-2024T18:50:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/a_Register Now' is clicked on
+
+15-09-2024T18:50:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_User ID_username"), "abc004"): Text 'abc004' is set on object 'Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_User ID_username'
+
+15-09-2024T18:51:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='stripes-1996427642']'. Please recheck the objects properties to make sure the desired element is located. 
+
+15-09-2024T18:51:30 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_User ID_username'. Try using Self-healing.
+
+15-09-2024T18:51:30 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='stripes-1996427642']'.
+
+15-09-2024T18:51:30 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//div[@id='Catalog']/form/table/tbody/tr/td[2]/input'.
+
+15-09-2024T18:51:30 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: /Users/ledamquangvinh/Katalon Studio/My First Web UI Project/Reports/Self-healing/Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_User ID_username_idRelative.png
+
+15-09-2024T18:51:30 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_User ID_username' was broken. Propose an alternative one: '//div[@id='Catalog']/form/table/tbody/tr/td[2]/input'.
+
+15-09-2024T18:52:01 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='stripes-1996427642']'. Please recheck the objects properties to make sure the desired element is located. 
+
+15-09-2024T18:52:01 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_User ID_username'. Try using Self-healing.
+
+15-09-2024T18:52:01 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_User ID_username' was broken. Propose an alternative one: '//div[@id='Catalog']/form/table/tbody/tr/td[2]/input'.
+
+15-09-2024T18:52:02 - [MESSAGE][PASSED] - Text 'abc004' is set on object 'Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_User ID_username'
+
+15-09-2024T18:52:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_New password_password"), "abc123"): Text 'abc123' is set on object 'Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_New password_password'
+
+15-09-2024T18:52:02 - [MESSAGE][PASSED] - Text 'abc123' is set on object 'Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_New password_password'
+
+15-09-2024T18:52:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_Repeat password_repeatedPassword"), "abc123"): Text 'abc123' is set on object 'Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_Repeat password_repeatedPassword'
+
+15-09-2024T18:52:03 - [MESSAGE][PASSED] - Text 'abc123' is set on object 'Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_Repeat password_repeatedPassword'
+
+15-09-2024T18:52:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_First name_account.firstName"), "abc"): Text 'abc' is set on object 'Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_First name_account.firstName'
+
+15-09-2024T18:52:03 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_First name_account.firstName'
+
+15-09-2024T18:52:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_Last name_account.lastName"), "abc"): Text 'abc' is set on object 'Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_Last name_account.lastName'
+
+15-09-2024T18:52:03 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_Last name_account.lastName'
+
+15-09-2024T18:52:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_Email_account.email"), "abc@gmail.com"): Text 'abc@gmail.com' is set on object 'Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_Email_account.email'
+
+15-09-2024T18:52:04 - [MESSAGE][PASSED] - Text 'abc@gmail.com' is set on object 'Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_Email_account.email'
+
+15-09-2024T18:52:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_Phone_account.phone"), "0123456789"): Text '0123456789' is set on object 'Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_Phone_account.phone'
+
+15-09-2024T18:52:04 - [MESSAGE][PASSED] - Text '0123456789' is set on object 'Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_Phone_account.phone'
+
+15-09-2024T18:52:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_Address 1_account.address1"), "abc"): Text 'abc' is set on object 'Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_Address 1_account.address1'
+
+15-09-2024T18:52:05 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_Address 1_account.address1'
+
+15-09-2024T18:52:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_Address 2_account.address2"), "abc"): Text 'abc' is set on object 'Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_Address 2_account.address2'
+
+15-09-2024T18:52:05 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_Address 2_account.address2'
+
+15-09-2024T18:52:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_City_account.city"), "abc"): Text 'abc' is set on object 'Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_City_account.city'
+
+15-09-2024T18:52:06 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_City_account.city'
+
+15-09-2024T18:52:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_State_account.state"), "abc"): Text 'abc' is set on object 'Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_State_account.state'
+
+15-09-2024T18:52:06 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_State_account.state'
+
+15-09-2024T18:52:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_Zip_account.zip"), "100000"): Text '100000' is set on object 'Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_Zip_account.zip'
+
+15-09-2024T18:52:07 - [MESSAGE][PASSED] - Text '100000' is set on object 'Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_Zip_account.zip'
+
+15-09-2024T18:52:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_Country_account.country"), "abc"): Text 'abc' is set on object 'Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_Country_account.country'
+
+15-09-2024T18:52:07 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_Country_account.country'
+
+15-09-2024T18:52:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_Enable MyBanner_newAccount")): Object: 'Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_Enable MyBanner_newAccount' is clicked on
+
+15-09-2024T18:52:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore_SuccessfulRegisterWithValidData/input_Enable MyBanner_newAccount' is clicked on
+
+15-09-2024T18:52:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-09-2024T18:52:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[15-09-2024T18:43:46 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/A3JBTMT-1 Successful registration with valid data]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

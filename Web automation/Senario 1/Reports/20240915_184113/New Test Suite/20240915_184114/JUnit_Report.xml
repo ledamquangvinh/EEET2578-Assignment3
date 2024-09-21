@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="68.05" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="68.05" skipped="0" timestamp="15-09-2024T18:41:18" hostname="ledamquangvinh - 192.168.2.9" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/ledamquangvinh/Katalon Studio/My First Web UI Project/Reports/20240915_184113/New Test Suite/20240915_184114"/>
+         <property name="logFiles" value="/Users/ledamquangvinh/Katalon Studio/My First Web UI Project/Reports/20240915_184113/New Test Suite/20240915_184114/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ledamquangvinh - 192.168.2.9"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="192.168.2.9"/>
+         <property name="sessionId" value="274c7c7421a328ba65602c7d44ad4ba3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/A3JBTMT-6 Login with incorrect password" time="68.006" classname="Test Cases/A3JBTMT-6 Login with incorrect password" status="PASSED">
+         <system-out><![CDATA[15-09-2024T18:41:18 - [TEST_CASE][PASSED] - Test Cases/A3JBTMT-6 Login with incorrect password: Test Cases/A3JBTMT-6 Login with incorrect password
+
+15-09-2024T18:41:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-09-2024T18:41:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-09-2024T18:41:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-09-2024T18:41:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-09-2024T18:41:20 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+15-09-2024T18:41:21 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+15-09-2024T18:41:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore_LoginWithIncorrectPassword/a_Enter the Store")): Object: 'Object Repository/Page_JPetStore_LoginWithIncorrectPassword/a_Enter the Store' is clicked on
+
+15-09-2024T18:41:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore_LoginWithIncorrectPassword/a_Enter the Store' is clicked on
+
+15-09-2024T18:41:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore_LoginWithIncorrectPassword/a_Sign In")): Object: 'Object Repository/Page_JPetStore_LoginWithIncorrectPassword/a_Sign In' is clicked on
+
+15-09-2024T18:41:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore_LoginWithIncorrectPassword/a_Sign In' is clicked on
+
+15-09-2024T18:41:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_JPetStore_LoginWithIncorrectPassword/input_Need a user name and password_username"), "abc004"): Text 'abc004' is set on object 'Object Repository/Page_JPetStore_LoginWithIncorrectPassword/input_Need a user name and password_username'
+
+15-09-2024T18:41:54 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='stripes-490571145']'. Please recheck the objects properties to make sure the desired element is located. 
+
+15-09-2024T18:41:54 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_JPetStore_LoginWithIncorrectPassword/input_Need a user name and password_username'. Try using Self-healing.
+
+15-09-2024T18:41:54 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_JPetStore_LoginWithIncorrectPassword/input_Need a user name and password_username' was broken. Propose an alternative one: '//div[@id='Catalog']/form/p[2]/input'.
+
+15-09-2024T18:42:25 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='stripes-490571145']'. Please recheck the objects properties to make sure the desired element is located. 
+
+15-09-2024T18:42:25 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_JPetStore_LoginWithIncorrectPassword/input_Need a user name and password_username'. Try using Self-healing.
+
+15-09-2024T18:42:25 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_JPetStore_LoginWithIncorrectPassword/input_Need a user name and password_username' was broken. Propose an alternative one: '//div[@id='Catalog']/form/p[2]/input'.
+
+15-09-2024T18:42:25 - [MESSAGE][PASSED] - Text 'abc004' is set on object 'Object Repository/Page_JPetStore_LoginWithIncorrectPassword/input_Need a user name and password_username'
+
+15-09-2024T18:42:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_JPetStore_LoginWithIncorrectPassword/input_Need a user name and password_password"), "+kIzYNdhew8="): Text ****** has been set on object 'Object Repository/Page_JPetStore_LoginWithIncorrectPassword/input_Need a user name and password_password'
+
+15-09-2024T18:42:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_JPetStore_LoginWithIncorrectPassword/input_Need a user name and password_password'
+
+15-09-2024T18:42:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore_LoginWithIncorrectPassword/input_Need a user name and password_signon")): Object: 'Object Repository/Page_JPetStore_LoginWithIncorrectPassword/input_Need a user name and password_signon' is clicked on
+
+15-09-2024T18:42:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore_LoginWithIncorrectPassword/input_Need a user name and password_signon' is clicked on
+
+15-09-2024T18:42:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_JPetStore_LoginWithIncorrectPassword/li_Invalid username or password.  Signon failed")): Object: 'Object Repository/Page_JPetStore_LoginWithIncorrectPassword/li_Invalid username or password.  Signon failed' is clicked on
+
+15-09-2024T18:42:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore_LoginWithIncorrectPassword/li_Invalid username or password.  Signon failed' is clicked on
+
+15-09-2024T18:42:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-09-2024T18:42:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[15-09-2024T18:41:18 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/A3JBTMT-6 Login with incorrect password]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
