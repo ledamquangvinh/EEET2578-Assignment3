@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Registration with invalid email format
+Description: </description>
+   <name>A3JBTMT-5 Registration with invalid email format</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10020&quot;:[{&quot;id&quot;:10,&quot;name&quot;:&quot;A3JBTMT Sprint 1&quot;,&quot;state&quot;:&quot;future&quot;,&quot;boardId&quot;:8}],&quot;customfield_10002&quot;:[],&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i000fj:&quot;},&quot;status&quot;:{&quot;id&quot;:10021,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://rmit-team-i0zi8xco.atlassian.net/&quot;,&quot;statusCategory&quot;:{&quot;id&quot;:2,&quot;key&quot;:&quot;new&quot;,&quot;colorName&quot;:&quot;blue-gray&quot;,&quot;self&quot;:&quot;https://rmit-team-i0zi8xco.atlassian.net/rest/api/2/statuscategory/2&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;self&quot;:&quot;https://rmit-team-i0zi8xco.atlassian.net/rest/api/2/status/10021&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://rmit-team-i0zi8xco.atlassian.net/rest/api/2/project/10007&quot;,&quot;key&quot;:&quot;A3JBTMT&quot;,&quot;id&quot;:10007,&quot;name&quot;:&quot;Assignment 3: JMeter, BDD, Test Management Tasks&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Registration with invalid email format&quot;,&quot;reporter&quot;:{&quot;active&quot;:true,&quot;displayName&quot;:&quot;Dinh Tu&quot;,&quot;accountId&quot;:&quot;6221f451a12450006888599a&quot;,&quot;self&quot;:&quot;https://rmit-team-i0zi8xco.atlassian.net/rest/api/2/user?accountId\u003d6221f451a12450006888599a&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://rmit-team-i0zi8xco.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://rmit-team-i0zi8xco.atlassian.net/rest/api/2/issue/A3JBTMT-5/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://rmit-team-i0zi8xco.atlassian.net/rest/api/2/issue/10080&quot;,&quot;key&quot;:&quot;A3JBTMT-5&quot;,&quot;id&quot;:10080}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>495c0613-5384-4b03-b8d7-65fa09eb365c</testCaseGuid>
+</TestCaseEntity>
