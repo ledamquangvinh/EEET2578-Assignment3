@@ -1,6 +1,0 @@
-{"testCaseName":"Test Cases/A3JBTMT-6 Login with incorrect password","testCaseId":"Test Cases/A3JBTMT-6 Login with incorrect password","iterationVariableName":""}
-{"testCaseName":"Test Cases/A3JBTMT-4 Login with unregistered user ID","testCaseId":"Test Cases/A3JBTMT-4 Login with unregistered user ID","iterationVariableName":""}
-{"testCaseName":"Test Cases/A3JBTMT-3 Successful login with valid credentials","testCaseId":"Test Cases/A3JBTMT-3 Successful login with valid credentials","iterationVariableName":""}
-{"testCaseName":"Test Cases/A3JBTMT-5 Registration with invalid email format","testCaseId":"Test Cases/A3JBTMT-5 Registration with invalid email format","iterationVariableName":""}
-{"testCaseName":"Test Cases/A3JBTMT-2 Registration with an existing user ID","testCaseId":"Test Cases/A3JBTMT-2 Registration with an existing user ID","iterationVariableName":""}
-{"testCaseName":"Test Cases/A3JBTMT-1 Successful registration with valid data","testCaseId":"Test Cases/A3JBTMT-1 Successful registration with valid data","iterationVariableName":""}
