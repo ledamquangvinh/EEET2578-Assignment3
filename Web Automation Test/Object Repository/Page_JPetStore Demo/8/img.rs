@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img</name>
+   <tag></tag>
+   <elementGuidId>abdafd2c-54bd-4230-8b74-8328faf0f65d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#SidebarContent > a > img</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='SidebarContent']/a/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#SidebarContent >> internal:role=link >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>63e65c76-fe6b-4e3f-ae6f-95abb9ded9df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>../images/fish_icon.gif</value>
+      <webElementGuid>81570c44-f695-40e3-aecb-e8ea6b2e45e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;SidebarContent&quot;)/a[1]/img[1]</value>
+      <webElementGuid>0e1ab4c3-bac1-47e6-a075-3e5078028eef</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='SidebarContent']/a/img</value>
+      <webElementGuid>c7ee4b48-df8d-4f06-9e5d-70fdcfcfcc46</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/a/img</value>
+      <webElementGuid>6f485286-e139-41b0-8c3b-41230839ce48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '../images/fish_icon.gif']</value>
+      <webElementGuid>1eb8080e-58f9-4093-9e77-42d2d8b1e64e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

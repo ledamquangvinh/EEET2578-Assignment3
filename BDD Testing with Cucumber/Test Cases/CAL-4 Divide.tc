@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Divide
+Description: </description>
+   <name>CAL-4 Divide</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10020&quot;:[{&quot;id&quot;:11,&quot;name&quot;:&quot;CAL Sprint 1&quot;,&quot;state&quot;:&quot;future&quot;,&quot;boardId&quot;:9}],&quot;customfield_10002&quot;:[],&quot;customfield_10038&quot;:&quot;Feature: divide\n  I want to use divide operator\n\n  Scenario Outline: Division\n    Given I run the code\n    When \u003ca\u003e divide \u003cb\u003e\n    Then I get the result \u003cresult\u003e in Double\n\n    Examples:\n      | a   | b   | result |\n      | 10  | 20  | 0.5    |\n      | 222 | 111 | 2      |\n      | 132 | 1   | 132    |\n\n  Scenario Outline: Illegal Division\n    Given I run the code\n    When \u003ca\u003e illegal divide \u003cb\u003e\n    Then I get the Exception \u003cresult\u003e\n\n    Examples:\n      | a   | b   | result                   |\n      | 10  | 0   | \&quot;Divisor cannot be zero\&quot; |&quot;,&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i000if:&quot;},&quot;status&quot;:{&quot;id&quot;:10024,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://rmit-team-i0zi8xco.atlassian.net/&quot;,&quot;statusCategory&quot;:{&quot;id&quot;:2,&quot;key&quot;:&quot;new&quot;,&quot;colorName&quot;:&quot;blue-gray&quot;,&quot;self&quot;:&quot;https://rmit-team-i0zi8xco.atlassian.net/rest/api/2/statuscategory/2&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;self&quot;:&quot;https://rmit-team-i0zi8xco.atlassian.net/rest/api/2/status/10024&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://rmit-team-i0zi8xco.atlassian.net/rest/api/2/project/10008&quot;,&quot;key&quot;:&quot;CAL&quot;,&quot;id&quot;:10008,&quot;name&quot;:&quot;CalculatorBDD&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Divide&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;s3891542@rmit.edu.vn&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Dinh Tu&quot;,&quot;accountId&quot;:&quot;6221f451a12450006888599a&quot;,&quot;self&quot;:&quot;https://rmit-team-i0zi8xco.atlassian.net/rest/api/2/user?accountId\u003d6221f451a12450006888599a&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://rmit-team-i0zi8xco.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://rmit-team-i0zi8xco.atlassian.net/rest/api/2/issue/CAL-4/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://rmit-team-i0zi8xco.atlassian.net/rest/api/2/issue/10093&quot;,&quot;key&quot;:&quot;CAL-4&quot;,&quot;id&quot;:10093}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment>Feature: divide
+  I want to use divide operator
+
+  Scenario Outline: Division
+    Given I run the code
+    When &lt;a> divide &lt;b>
+    Then I get the result &lt;result> in Double
+
+    Examples:
+      | a   | b   | result |
+      | 10  | 20  | 0.5    |
+      | 222 | 111 | 2      |
+      | 132 | 1   | 132    |
+
+  Scenario Outline: Illegal Division
+    Given I run the code
+    When &lt;a> illegal divide &lt;b>
+    Then I get the Exception &lt;result>
+
+    Examples:
+      | a   | b   | result                   |
+      | 10  | 0   | &quot;Divisor cannot be zero&quot; |</comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>30f04c43-c344-4f69-9527-dca155c37333</testCaseGuid>
+</TestCaseEntity>

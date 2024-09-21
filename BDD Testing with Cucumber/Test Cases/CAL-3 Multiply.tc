@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Multiply
+Description: </description>
+   <name>CAL-3 Multiply</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10020&quot;:[{&quot;id&quot;:11,&quot;name&quot;:&quot;CAL Sprint 1&quot;,&quot;state&quot;:&quot;future&quot;,&quot;boardId&quot;:9}],&quot;customfield_10002&quot;:[],&quot;customfield_10038&quot;:&quot;Feature: multiply\n  I want to use multiply operator\n\n  Scenario Outline: Multiplication\n    Given I run the code\n    When \u003ca\u003e multiply \u003cb\u003e\n    Then I get the result \u003cresult\u003e in Long\n\n    Examples:\n      | a   | b   | result |\n      | 10  | 20  | 200    |\n      | 92  | -19 | -1748  |\n      | 12  | -19 | -228   |&quot;,&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i000i7:&quot;},&quot;status&quot;:{&quot;id&quot;:10024,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://rmit-team-i0zi8xco.atlassian.net/&quot;,&quot;statusCategory&quot;:{&quot;id&quot;:2,&quot;key&quot;:&quot;new&quot;,&quot;colorName&quot;:&quot;blue-gray&quot;,&quot;self&quot;:&quot;https://rmit-team-i0zi8xco.atlassian.net/rest/api/2/statuscategory/2&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;self&quot;:&quot;https://rmit-team-i0zi8xco.atlassian.net/rest/api/2/status/10024&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://rmit-team-i0zi8xco.atlassian.net/rest/api/2/project/10008&quot;,&quot;key&quot;:&quot;CAL&quot;,&quot;id&quot;:10008,&quot;name&quot;:&quot;CalculatorBDD&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Multiply&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;s3891542@rmit.edu.vn&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Dinh Tu&quot;,&quot;accountId&quot;:&quot;6221f451a12450006888599a&quot;,&quot;self&quot;:&quot;https://rmit-team-i0zi8xco.atlassian.net/rest/api/2/user?accountId\u003d6221f451a12450006888599a&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://rmit-team-i0zi8xco.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://rmit-team-i0zi8xco.atlassian.net/rest/api/2/issue/CAL-3/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://rmit-team-i0zi8xco.atlassian.net/rest/api/2/issue/10092&quot;,&quot;key&quot;:&quot;CAL-3&quot;,&quot;id&quot;:10092}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment>Feature: multiply
+  I want to use multiply operator
+
+  Scenario Outline: Multiplication
+    Given I run the code
+    When &lt;a> multiply &lt;b>
+    Then I get the result &lt;result> in Long
+
+    Examples:
+      | a   | b   | result |
+      | 10  | 20  | 200    |
+      | 92  | -19 | -1748  |
+      | 12  | -19 | -228   |</comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>73d4c6bd-dc25-401b-b78e-42de93b5a183</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img</name>
+   <tag></tag>
+   <elementGuidId>2082887b-00b7-4999-967f-5259b38dda6a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#SidebarContent > a:nth-of-type(2) > img</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='SidebarContent']/a[2]/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#SidebarContent >> internal:role=link >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>78682cdb-b658-4f8f-8373-4042a49ce22a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>../images/dogs_icon.gif</value>
+      <webElementGuid>b36812ae-d97f-4acb-ad7a-d1339904eba4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;SidebarContent&quot;)/a[2]/img[1]</value>
+      <webElementGuid>3c51539e-2ca8-4731-8a0f-271f6d59bdf6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='SidebarContent']/a[2]/img</value>
+      <webElementGuid>1f7ea5cd-75c8-4e23-9d66-9e82fd9bc23d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/a[2]/img</value>
+      <webElementGuid>dd964060-bae4-4b7b-b2a6-8bb8b7d9b578</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '../images/dogs_icon.gif']</value>
+      <webElementGuid>455a3fb9-47d2-49da-a75e-e49386d39d1f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

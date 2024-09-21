@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img</name>
+   <tag></tag>
+   <elementGuidId>c49bc0ad-ce09-408e-b1af-af2c8a98bbb1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>td > a > img</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='Catalog']/table/tbody/tr[2]/td/a/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Fresh Water fish from China&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>108247e4-9fea-48f5-8397-f96b007d41a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>../images/fish2.gif</value>
+      <webElementGuid>d48b454b-15f9-4dfe-ba11-e9179db3e5b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Catalog&quot;)/table[1]/tbody[1]/tr[2]/td[1]/a[1]/img[1]</value>
+      <webElementGuid>9a10eb22-a664-463f-a5a9-582caa4b7afe</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='Catalog']/table/tbody/tr[2]/td/a/img</value>
+      <webElementGuid>9a2c9e7d-91d8-4d15-9e3e-26586c5c6421</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/a/img</value>
+      <webElementGuid>31d385f4-343e-43cb-822a-e86a414d110a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '../images/fish2.gif']</value>
+      <webElementGuid>6e9ea215-3169-4805-8e4e-3b16203eb883</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
